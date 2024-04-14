@@ -12,7 +12,6 @@ use Recurr\Exception\InvalidWeekday;
 class RegularTicket extends Model
 {
     use SoftDeletes;
-    use HasFactory;
 
     protected $fillable = [
         'repeat_rule',
