@@ -2,10 +2,6 @@
 
 namespace Models;
 
-use App\Models\Client\ClientCompany;
-use App\Models\Ticket\Category;
-use App\Models\Ticket\Status;
-use App\Models\Ticket\Template;
 use App\Service\RegularTicket\RecurrenceRule;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
